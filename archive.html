@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Archive | abd.</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖋️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+<style>
+@keyframes fa-emergency-reveal { to { opacity: 1 !important; visibility: visible !important; } }
+.scroll-reveal:not(.is-visible),.reveal:not(.active):not(.is-visible),.fade-in:not(.visible):not(.in),.slide-in:not(.visible):not(.in),.fade-up:not(.is-visible),.fade-down:not(.is-visible),.zoom-in:not(.is-visible),.animate:not(.animated),.animate-up:not(.in),.will-animate:not(.animated),.animate-on-scroll:not(.animated):not(.in-view),.animate-on-load:not(.in-view):not(.visible),[data-aos]:not(.aos-animate),[data-reveal]:not(.in-view):not(.is-visible),[data-scroll]:not(.is-inview):not(.in-view),[data-animate]:not(.is-visible):not(.animated) { animation: fa-emergency-reveal 0.4s ease 4s forwards !important; }
+</style>
+<script>
+(function(){try{
+  var conv={'scroll-reveal':'is-visible','reveal':'active','fade-in':'visible','slide-in':'visible','fade-up':'is-visible','fade-down':'is-visible','zoom-in':'is-visible','animate-on-scroll':'animated','animate-on-load':'in-view','animate-up':'in','animate':'animated','will-animate':'animated'};
+  var attrs=[['data-reveal','in-view'],['data-scroll','is-inview'],['data-animate','is-visible'],['data-aos','aos-animate']];
+  function revealAllAbove(){
+    var vh=window.innerHeight||document.documentElement.clientHeight;
+    function pin(el,cls){el.classList.add(cls);el.style.setProperty('opacity','1','important');el.style.setProperty('visibility','visible','important');el.style.transform='';}
+    Object.keys(conv).forEach(function(c){
+      document.querySelectorAll('.'+c).forEach(function(el){
+        if(el.getBoundingClientRect().top<vh)pin(el,conv[c]);
+      });
+    });
+    attrs.forEach(function(a){
+      document.querySelectorAll('['+a[0]+']').forEach(function(el){
+        if(el.getBoundingClientRect().top<vh)pin(el,a[1]);
+      });
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',revealAllAbove);else revealAllAbove();
+}catch(e){}})();
+</script>
+
+  <!-- SEO — injected by ForgeAI -->
+  <meta name="description" content="The Archive | abd. — built with ForgeAI">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="/archive.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Archive | abd.">
+  <meta property="og:description" content="The Archive | abd. — built with ForgeAI">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://og-image.vercel.app/The%20Archive%20%7C%20abd..png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Archive | abd.">
+  <meta name="twitter:description" content="The Archive | abd. — built with ForgeAI">
+  <meta name="twitter:image" content="https://og-image.vercel.app/The%20Archive%20%7C%20abd..png">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"The Archive | abd.","description":"The Archive | abd. — built with ForgeAI"}</script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-ring"></div></div>
+    <!-- Running Header Motif -->
+    <div class="running-header">
+        <span>Est. 2024</span>
+        <span>The Archive / Chronological Record</span>
+        <span>Page IX</span>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">abd.</a>
+            <nav>
+                <a href="index.html">Journal</a>
+                <a href="about.html">Manifesto</a>
+                <a href="archive.html" class="active">Archive</a>
+                <a href="contact.html">Correspondence</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Archive Hero Section with dark overlay & background image -->
+        <section class="hero archive-hero">
+            <img src="https://picsum.photos/seed/archivehero/1920/1080" alt="Dusty shelves filled with ancient leather-bound manuscripts" class="hero-bg">
+            <div class="content-wrapper">
+                <span class="eyebrow">The Catalogued Mind</span>
+                <h1>The <span class="highlight">Chronological</span> Index</h1>
+                <p>A tactile repository of slow essays, quiet observations, and critical reflections compiled across seasons of contemplation.</p>
+                
+                <!-- Archive Search and Filter controls -->
+                <div class="archive-controls">
+                    <div class="search-wrapper">
+                        <input type="text" id="archive-search" placeholder="Search essays, concepts, authors...">
+                    </div>
+                    <div class="filter-wrapper">
+                        <button class="filter-btn active" data-filter="all">All Volumes</button>
+                        <button class="filter-btn" data-filter="philosophy">Philosophy</button>
+                        <button class="filter-btn" data-filter="history">History</button>
+                        <button class="filter-btn" data-filter="lifestyle">Ritual</button>
+                        <button class="filter-btn" data-filter="letters">Epistles</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chronological Grid -->
+        <section class="grid-section archive-grid-section">
+            <div class="content-wrapper">
+                <div class="archive-header-row">
+                    <span class="running-sub">Volume I &mdash; IV</span>
+                    <span class="running-sub">Showing 6 Selected Chronicles</span>
+                </div>
+
+                <div class="post-grid archive-posts" id="archive-posts-container">
+                    <!-- Post 1 -->
+                    <article class="card" data-category="philosophy">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post1/600/400" alt="Sunlit wooden desk overlooking a forest">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">Philosophy</span>
+                            <span class="read-time">12 Min Read</span>
+                        </div>
+                        <h3>The Forest and the Fountain</h3>
+                        <p class="card-excerpt">On finding solitude in the over-connected landscape of modern life and building an inner library.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=11" alt="Thomas Crane" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">Thomas Crane</span>
+                                <span class="pub-date">October 24, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="card" data-category="history">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post2/600/400" alt="Vintage printing press plates and iron keys">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">History</span>
+                            <span class="read-time">18 Min Read</span>
+                        </div>
+                        <h3>Ink, Lead, and Persistence</h3>
+                        <p class="card-excerpt">How the physical mechanics of the Gutenberg press shaped human thought and why we long for tactile weight.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=12" alt="Sarah More" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">Sarah More</span>
+                                <span class="pub-date">September 11, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="card" data-category="lifestyle">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post3/600/400" alt="Steaming ceramic mug of coffee next to wire-bound manuscript">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">Ritual</span>
+                            <span class="read-time">8 Min Read</span>
+                        </div>
+                        <h3>Rituals of the Morning</h3>
+                        <p class="card-excerpt">A quiet phenomenological exploration of early hours, black liquids, and blank sheets of linen paper.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=13" alt="H. L. Vance" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">H. L. Vance</span>
+                                <span class="pub-date">August 30, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 4 -->
+                    <article class="card" data-category="philosophy">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post4/600/400" alt="Hands holding open an old linen bound journal">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">Philosophy</span>
+                            <span class="read-time">14 Min Read</span>
+                        </div>
+                        <h3>The Architecture of Silence</h3>
+                        <p class="card-excerpt">Unmasking the constant mechanical background noise of modernity to hear the quiet cadence of thought.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=14" alt="Julius Finch" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">Julius Finch</span>
+                                <span class="pub-date">August 04, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 5 -->
+                    <article class="card" data-category="letters">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post5/600/400" alt="Stacked envelopes with wax seals and twine">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">Epistles</span>
+                            <span class="read-time">9 Min Read</span>
+                        </div>
+                        <h3>Correspondence with a Ghost</h3>
+                        <p class="card-excerpt">An exchange of letters over three decades examining spatial distance and emotional gravity.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=15" alt="Clara Sterling" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">Clara Sterling</span>
+                                <span class="pub-date">July 18, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Post 6 -->
+                    <article class="card" data-category="history">
+                        <div class="card-image-wrapper">
+                            <img src="https://picsum.photos/seed/post6/600/400" alt="An old grandfather clock works inside exposed copper gears">
+                        </div>
+                        <div class="card-meta">
+                            <span class="category">History</span>
+                            <span class="read-time">22 Min Read</span>
+                        </div>
+                        <h3>The Invention of Urgency</h3>
+                        <p class="card-excerpt">A historical tracing of timekeeping devices and the transformation of human work into discrete temporal bills.</p>
+                        <div class="card-footer-meta">
+                            <img src="https://i.pravatar.cc/300?img=16" alt="Arthur Rowe" class="author-avatar">
+                            <div class="author-details">
+                                <span class="author-name">Arthur Rowe</span>
+                                <span class="pub-date">June 02, 2024</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination Motif -->
+                <div class="pagination">
+                    <span class="prev-page disabled">&larr; Previous Page</span>
+                    <div class="pages">
+                        <a href="#" class="page-num active">I</a>
+                        <a href="#" class="page-num">II</a>
+                        <a href="#" class="page-num">III</a>
+                    </div>
+                    <a href="#" class="next-page">Next Page &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Archive Video Feature -->
+        <section class="manifesto video-feature-section">
+            <div class="content-wrapper">
+                <div class="video-grid-split">
+                    <div class="video-text">
+                        <span class="eyebrow">Documentary Feature</span>
+                        <h2 class="serif-title">The Master Guild of the Press</h2>
+                        <p>We journeyed into the last active letterpress bindery in the mountains of Piedmont. This brief portrait captures the heavy thrum of vintage equipment, the sharp aroma of leaded inks, and the absolute focus of craftsmen preserving techniques from 1894.</p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn-primary">Watch Full Portrait</a>
+                    </div>
+                    <div class="video-wrapper-16-9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="The Master Guild of the Press Portrait" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter RSVP/Form -->
+        <section class="newsletter">
+            <div class="content-wrapper">
+                <h2>Join the Correspondence</h2>
+                <p>Register to receive our quarterly print catalogue and curated epistles sent straight to your physical or digital doorstep.</p>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">RSVP</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-column">
+                <span class="logo">abd.</span>
+                <p>An independent repository of long-form, physical, and philosophical expressions. Preserving the tactile essence of modern literature.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Index</h4>
+                <a href="index.html">The Journal</a>
+                <a href="about.html">Our Manifesto</a>
+                <a href="archive.html">Chronicles</a>
+                <a href="contact.html">Correspondence</a>
+            </div>
+            <div class="footer-column">
+                <h4>Epistles</h4>
+                <a href="#">The Epistles of Time</a>
+                <a href="#">On Modern Desolation</a>
+                <a href="#">The Architecture of Solace</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 abd. journal. Est. 2024. All rights reserved.</p>
+            <span>Made with slow intent in Piedmont.</span>
+        </div>
+    </footer>
+
+    <!-- Simple JS Script inside page for archive filter functionality if main script isn't loaded -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const cards = document.querySelectorAll('.archive-posts .card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const filterValue = btn.getAttribute('data-filter');
+
+                    cards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'block';
+                            card.style.opacity = '0';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                            }, 50);
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Search filtering
+            const searchInput = document.getElementById('archive-search');
+            if(searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    const text = e.target.value.toLowerCase();
+                    cards.forEach(card => {
+                        const title = card.querySelector('h3').textContent.toLowerCase();
+                        const excerpt = card.querySelector('.card-excerpt').textContent.toLowerCase();
+                        if (title.includes(text) || excerpt.includes(text)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

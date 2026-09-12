@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Correspondence | abd. Journal</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✉️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+<style>
+@keyframes fa-emergency-reveal { to { opacity: 1 !important; visibility: visible !important; } }
+.scroll-reveal:not(.is-visible),.reveal:not(.active):not(.is-visible),.fade-in:not(.visible):not(.in),.slide-in:not(.visible):not(.in),.fade-up:not(.is-visible),.fade-down:not(.is-visible),.zoom-in:not(.is-visible),.animate:not(.animated),.animate-up:not(.in),.will-animate:not(.animated),.animate-on-scroll:not(.animated):not(.in-view),.animate-on-load:not(.in-view):not(.visible),[data-aos]:not(.aos-animate),[data-reveal]:not(.in-view):not(.is-visible),[data-scroll]:not(.is-inview):not(.in-view),[data-animate]:not(.is-visible):not(.animated) { animation: fa-emergency-reveal 0.4s ease 4s forwards !important; }
+</style>
+<script>
+(function(){try{
+  var conv={'scroll-reveal':'is-visible','reveal':'active','fade-in':'visible','slide-in':'visible','fade-up':'is-visible','fade-down':'is-visible','zoom-in':'is-visible','animate-on-scroll':'animated','animate-on-load':'in-view','animate-up':'in','animate':'animated','will-animate':'animated'};
+  var attrs=[['data-reveal','in-view'],['data-scroll','is-inview'],['data-animate','is-visible'],['data-aos','aos-animate']];
+  function revealAllAbove(){
+    var vh=window.innerHeight||document.documentElement.clientHeight;
+    function pin(el,cls){el.classList.add(cls);el.style.setProperty('opacity','1','important');el.style.setProperty('visibility','visible','important');el.style.transform='';}
+    Object.keys(conv).forEach(function(c){
+      document.querySelectorAll('.'+c).forEach(function(el){
+        if(el.getBoundingClientRect().top<vh)pin(el,conv[c]);
+      });
+    });
+    attrs.forEach(function(a){
+      document.querySelectorAll('['+a[0]+']').forEach(function(el){
+        if(el.getBoundingClientRect().top<vh)pin(el,a[1]);
+      });
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',revealAllAbove);else revealAllAbove();
+}catch(e){}})();
+</script>
+
+  <!-- SEO — injected by ForgeAI -->
+  <meta name="description" content="Correspondence | abd. Journal — built with ForgeAI">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Correspondence | abd. Journal">
+  <meta property="og:description" content="Correspondence | abd. Journal — built with ForgeAI">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://og-image.vercel.app/Correspondence%20%7C%20abd.%20Journal.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Correspondence | abd. Journal">
+  <meta name="twitter:description" content="Correspondence | abd. Journal — built with ForgeAI">
+  <meta name="twitter:image" content="https://og-image.vercel.app/Correspondence%20%7C%20abd.%20Journal.png">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Correspondence | abd. Journal","description":"Correspondence | abd. Journal — built with ForgeAI"}</script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-ring"></div></div>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">abd.</a>
+            <nav>
+                <a href="index.html">Journal</a>
+                <a href="about.html">Manifesto</a>
+                <a href="archive.html">Archive</a>
+                <a href="contact.html" class="active">Correspondence</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="contact-header">
+            <div class="content-wrapper">
+                <span class="eyebrow">Direct Line</span>
+                <h1>Correspondence</h1>
+                <p class="subtitle">For submissions, editorial inquiries, or simply to share a thought, our inkwell is always open.</p>
+            </div>
+        </section>
+
+        <section class="contact-grid">
+            <div class="content-wrapper grid-layout">
+                <div class="contact-form-box">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Write your letter here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Correspondence</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Editorial Offices</h3>
+                    <p>42 Library Lane<br>Beacon Hill, Boston<br>Massachusetts, 02108</p>
+                    <br>
+                    <h3>General Inquiries</h3>
+                    <p><a href="mailto:hello@abdjournal.com">hello@abdjournal.com</a></p>
+                    <br>
+                    <h3>Office Hours</h3>
+                    <p>Monday–Friday<br>09:00 – 17:00 EST</p>
+                    <div class="meta-tag">Est. 2024</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 abd. journal. Est. 2024.</p>
+    </footer>
+</body>
+</html>
